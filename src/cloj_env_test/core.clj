@@ -1,6 +1,6 @@
 (ns cloj-env-test.core
-  (:require [ring.adapter.jetty :refer [run-jetty]]
-            ))
+  (:require [ring.adapter.jetty :refer [run-jetty]])
+  (:gen-class))
 
 (defn-
   format-map
