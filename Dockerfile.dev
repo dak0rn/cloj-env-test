@@ -1,0 +1,9 @@
+# Development docker file
+FROM clojure
+
+# Mount the project at /app
+VOLUME /app
+WORKDIR /app
+
+EXPOSE 80
+CMD ["lein", "ring", "server-headless"]
